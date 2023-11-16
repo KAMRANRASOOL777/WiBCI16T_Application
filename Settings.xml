@@ -1,0 +1,34 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0f5</Version>
+<Cluster>
+<Name>Settings</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Signal Type</Name>
+<Choice>Sine Wave</Choice>
+<Choice>Square with Noise</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>Calibration Array</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Calibration</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Slope</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Offset</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\CAST\Desktop\Logged Files\Test.tdms</Val>
+</Path>
+</Cluster>
+</LVData>
