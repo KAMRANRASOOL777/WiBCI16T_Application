@@ -8,7 +8,7 @@
 <Name>Signal Type</Name>
 <Choice>Sine Wave</Choice>
 <Choice>Square with Noise</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <Array>
 <Name>Calibration Array</Name>
