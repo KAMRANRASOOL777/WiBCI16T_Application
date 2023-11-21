@@ -8,5 +8,6 @@
 
 </Property>
 	<Item Name="Calibration Values--cluster.ctl" Type="VI" URL="../Calibration Values--cluster.ctl"/>
+	<Item Name="EEG Channel.ctl" Type="VI" URL="../EEG Channel.ctl"/>
 	<Item Name="Signal Type--enum.ctl" Type="VI" URL="../Signal Type--enum.ctl"/>
 </Library>
