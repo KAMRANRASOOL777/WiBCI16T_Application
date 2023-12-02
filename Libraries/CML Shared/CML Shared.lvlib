@@ -8,6 +8,9 @@
 
 </Property>
 	<Item Name="Calibration Values--cluster.ctl" Type="VI" URL="../Calibration Values--cluster.ctl"/>
-	<Item Name="EEG Channel.ctl" Type="VI" URL="../EEG Channel.ctl"/>
+	<Item Name="EEG Channel Settings.ctl" Type="VI" URL="../EEG Channel Settings.ctl"/>
+	<Item Name="Reg_Map.ctl" Type="VI" URL="../Reg_Map.ctl"/>
 	<Item Name="Signal Type--enum.ctl" Type="VI" URL="../Signal Type--enum.ctl"/>
+	<Item Name="WiBCI16T_Data.ctl" Type="VI" URL="../WiBCI16T_Data.ctl"/>
+	<Item Name="WiBCI16T_Status.ctl" Type="VI" URL="../WiBCI16T_Status.ctl"/>
 </Library>

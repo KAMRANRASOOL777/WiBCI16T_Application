@@ -3,32 +3,364 @@
 <Version>16.0f5</Version>
 <Cluster>
 <Name>Settings</Name>
-<NumElts>3</NumElts>
+<NumElts>4</NumElts>
 <EW>
 <Name>Signal Type</Name>
 <Choice>Sine Wave</Choice>
 <Choice>Square with Noise</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <Array>
 <Name>Calibration Array</Name>
-<Dimsize>1</Dimsize>
+<Dimsize>0</Dimsize>
 <Cluster>
 <Name>Calibration</Name>
 <NumElts>2</NumElts>
 <DBL>
 <Name>Slope</Name>
-<Val>1.00000000000000</Val>
+<Val></Val>
 </DBL>
 <DBL>
 <Name>Offset</Name>
-<Val>0.00000000000000</Val>
+<Val></Val>
 </DBL>
 </Cluster>
 </Array>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\CAST\Desktop\Logged Files\Test.tdms</Val>
+<Val>C:\Users\CAST\Desktop</Val>
 </Path>
+<Cluster>
+<Name>EEG Channels</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>16 EEG Channels</Name>
+<Dimsize>16</Dimsize>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>1</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>2</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>3</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>4</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>5</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>6</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>7</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>8</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>9</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>10</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>11</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>12</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>13</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>14</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>15</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>EEG Single Channel</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val></Val>
+</String>
+<U8>
+<Name>Channel No</Name>
+<Val>16</Val>
+</U8>
+<Boolean>
+<Name>Channel Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Channel Referenced</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Array>
+<U8>
+<Name>Gain</Name>
+<Val>24</Val>
+</U8>
+</Cluster>
 </Cluster>
 </LVData>

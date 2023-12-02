@@ -24,6 +24,12 @@
 				<Item Name="Calibrate DAQ Argument--cluster.ctl" Type="VI" URL="../Calibrate DAQ Argument--cluster.ctl"/>
 				<Item Name="Start Acquiring Argument--cluster.ctl" Type="VI" URL="../Start Acquiring Argument--cluster.ctl"/>
 				<Item Name="Start Acquiring (Reply Payload)--cluster.ctl" Type="VI" URL="../Start Acquiring (Reply Payload)--cluster.ctl"/>
+				<Item Name="Command_TestData Argument--cluster.ctl" Type="VI" URL="../Command_TestData Argument--cluster.ctl"/>
+				<Item Name="Check WiFi AP Argument--cluster.ctl" Type="VI" URL="../Check WiFi AP Argument--cluster.ctl"/>
+				<Item Name="Command_NoiseData Argument--cluster.ctl" Type="VI" URL="../Command_NoiseData Argument--cluster.ctl"/>
+				<Item Name="Command_LiveData Argument--cluster.ctl" Type="VI" URL="../Command_LiveData Argument--cluster.ctl"/>
+				<Item Name="Command_ImpedanceData Argument--cluster.ctl" Type="VI" URL="../Command_ImpedanceData Argument--cluster.ctl"/>
+				<Item Name="Command_GoToIdle Argument--cluster.ctl" Type="VI" URL="../Command_GoToIdle Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -44,6 +50,12 @@
 			<Item Name="Stop Acquiring.vi" Type="VI" URL="../Stop Acquiring.vi"/>
 			<Item Name="Calibrate DAQ.vi" Type="VI" URL="../Calibrate DAQ.vi"/>
 			<Item Name="Start Acquiring.vi" Type="VI" URL="../Start Acquiring.vi"/>
+			<Item Name="Command_TestData.vi" Type="VI" URL="../Command_TestData.vi"/>
+			<Item Name="Command_NoiseData.vi" Type="VI" URL="../Command_NoiseData.vi"/>
+			<Item Name="Check WiFi AP.vi" Type="VI" URL="../Check WiFi AP.vi"/>
+			<Item Name="Command_LiveData.vi" Type="VI" URL="../Command_LiveData.vi"/>
+			<Item Name="Command_ImpedanceData.vi" Type="VI" URL="../Command_ImpedanceData.vi"/>
+			<Item Name="Command_GoToIdle.vi" Type="VI" URL="../Command_GoToIdle.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -75,7 +87,9 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Calc EEG Volts.vi" Type="VI" URL="../Calc EEG Volts.vi"/>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
+		<Item Name="Decode and Update.vi" Type="VI" URL="../Decode and Update.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
@@ -88,6 +102,7 @@
 		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
 		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
+		<Item Name="Typedef to Ch settings.vi" Type="VI" URL="../Typedef to Ch settings.vi"/>
 	</Item>
 	<Item Name="Private Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -118,7 +133,7 @@
 		<Item Name="Configure Hardware.vi" Type="VI" URL="../Configure Hardware.vi"/>
 		<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
 		<Item Name="Acquire.vi" Type="VI" URL="../Acquire.vi"/>
-		<Item Name="Generate Simulated Data.vi" Type="VI" URL="../Generate Simulated Data.vi"/>
+		<Item Name="Acquire UDP Data.vi" Type="VI" URL="../Acquire UDP Data.vi"/>
 		<Item Name="Close Hardware References.vi" Type="VI" URL="../Close Hardware References.vi"/>
 		<Item Name="Apply Calibration.vi" Type="VI" URL="../Apply Calibration.vi"/>
 	</Item>

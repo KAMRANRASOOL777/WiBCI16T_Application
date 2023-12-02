@@ -18,6 +18,9 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
+				<Item Name="STOP_GUI Argument--cluster.ctl" Type="VI" URL="../STOP_GUI Argument--cluster.ctl"/>
+				<Item Name="Clear All Charts Argument--cluster.ctl" Type="VI" URL="../Clear All Charts Argument--cluster.ctl"/>
+				<Item Name="Update Data Status UI Argument--cluster.ctl" Type="VI" URL="../Update Data Status UI Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -31,6 +34,9 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="STOP_GUI.vi" Type="VI" URL="../STOP_GUI.vi"/>
+			<Item Name="Clear All Charts.vi" Type="VI" URL="../Clear All Charts.vi"/>
+			<Item Name="Update Data Status UI.vi" Type="VI" URL="../Update Data Status UI.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -90,6 +96,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Set Enable State on Multiple Controls.vi"/>
 		<Item Name="Is UI Ready.vi" Type="VI" URL="../Is UI Ready.vi"/>
+		<Item Name="User Message.vi" Type="VI" URL="../User Message.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
