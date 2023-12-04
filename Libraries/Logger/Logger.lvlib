@@ -79,6 +79,8 @@
 		<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
 		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
 		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
+		<Item Name="Parse Data Packet for Writing.vi" Type="VI" URL="../Parse Data Packet for Writing.vi"/>
+		<Item Name="parse Header name (Channels).vi" Type="VI" URL="../parse Header name (Channels).vi"/>
 		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">

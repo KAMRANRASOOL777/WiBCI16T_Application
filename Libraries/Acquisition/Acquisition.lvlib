@@ -30,6 +30,7 @@
 				<Item Name="Command_LiveData Argument--cluster.ctl" Type="VI" URL="../Command_LiveData Argument--cluster.ctl"/>
 				<Item Name="Command_ImpedanceData Argument--cluster.ctl" Type="VI" URL="../Command_ImpedanceData Argument--cluster.ctl"/>
 				<Item Name="Command_GoToIdle Argument--cluster.ctl" Type="VI" URL="../Command_GoToIdle Argument--cluster.ctl"/>
+				<Item Name="Soft Trigger Argument--cluster.ctl" Type="VI" URL="../Soft Trigger Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -56,6 +57,7 @@
 			<Item Name="Command_LiveData.vi" Type="VI" URL="../Command_LiveData.vi"/>
 			<Item Name="Command_ImpedanceData.vi" Type="VI" URL="../Command_ImpedanceData.vi"/>
 			<Item Name="Command_GoToIdle.vi" Type="VI" URL="../Command_GoToIdle.vi"/>
+			<Item Name="Soft Trigger.vi" Type="VI" URL="../Soft Trigger.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
