@@ -15,8 +15,10 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="CML UI.lvlib" Type="Library" URL="../Libraries/CML UI/CML UI.lvlib"/>
 			<Item Name="Acquisition.lvlib" Type="Library" URL="../Libraries/Acquisition/Acquisition.lvlib"/>
+			<Item Name="Impedance Acquisition.lvlib" Type="Library" URL="../Libraries/Impedance Acquisition/Impedance Acquisition.lvlib"/>
 			<Item Name="Logger.lvlib" Type="Library" URL="../Libraries/Logger/Logger.lvlib"/>
 			<Item Name="Settings Editor.lvlib" Type="Library" URL="../Libraries/Settings Editor/Settings Editor.lvlib"/>
+			<Item Name="Impedance Data Acquisition and Decoding.lvlib" Type="Library" URL="../Libraries/Imp Acquisition/Impedance Data Acquisition and Decoding.lvlib"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="CML Shared.lvlib" Type="Library" URL="../Libraries/CML Shared/CML Shared.lvlib"/>
@@ -28,6 +30,7 @@
 			<Item Name="Test Acquisition API.vi" Type="VI" URL="../Libraries/Acquisition/Test Acquisition API.vi"/>
 			<Item Name="Test Logger API.vi" Type="VI" URL="../Libraries/Logger/Test Logger API.vi"/>
 			<Item Name="Test Settings Editor API.vi" Type="VI" URL="../Libraries/Settings Editor/Test Settings Editor API.vi"/>
+			<Item Name="Test Impedance Acquisition API.vi" Type="VI" URL="../Libraries/Impedance Acquisition/Test Impedance Acquisition API.vi"/>
 		</Item>
 		<Item Name="TestFiles" Type="Folder" URL="../TestFiles">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -141,6 +144,9 @@
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="VerQueryValue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/VerQueryValue.vi"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
@@ -152,9 +158,28 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
+			<Item Name="Aircraft Bus Hardware Configuration.ctl" Type="VI" URL="../AC 1553/FINS3-E AC Data Acquisition and Decoding/Aircraft Bus Hardware Configuration.ctl"/>
+			<Item Name="BusA Hardware Configuration.ctl" Type="VI" URL="../BusA/FINS3-E BusA Data Acquisition and Decoding/BusA Hardware Configuration.ctl"/>
+			<Item Name="BusD Hardware Configuration.ctl" Type="VI" URL="../BusD/FINS3-E BusD Data Acquisition and Decoding/BusD Hardware Configuration.ctl"/>
+			<Item Name="DSMAC Hardware Configuration.ctl" Type="VI" URL="../DSMAC/FINS3-E DSMAC Data Acquisition and Decoding/DSMAC Hardware Configuration.ctl"/>
+			<Item Name="FCC Parameters.ctl" Type="VI" URL="../BusA/FINS3-E BusA Data Acquisition and Decoding/FCC Parameters.ctl"/>
+			<Item Name="FINS-3E Mode BusA&amp;B.vi" Type="VI" URL="../../FINS3-E Shared/FINS-3E Mode BusA&amp;B.vi"/>
+			<Item Name="FINS3-E Config Hardware Configuration.ctl" Type="VI" URL="../../Configurator/FINS3-E Config Hardware Configuration.ctl"/>
+			<Item Name="FINS3-E IMU Hardware Configuration.ctl" Type="VI" URL="../IMU/FINS3-E IMU Data Acquisition and Decoding/FINS3-E IMU Hardware Configuration.ctl"/>
+			<Item Name="GPS Hardware Configuration.ctl" Type="VI" URL="../FINS3-E TEL Bus/GPS Hardware Configuration.ctl"/>
+			<Item Name="INS_Mode_word_Bit0toBit3.vi" Type="VI" URL="../../FINS3-E Shared/INS_Mode_word_Bit0toBit3.vi"/>
+			<Item Name="INS_Mode_word_Bit4toBit7.vi" Type="VI" URL="../../FINS3-E Shared/INS_Mode_word_Bit4toBit7.vi"/>
+			<Item Name="INS_Mode_word_Bit8toBit11.vi" Type="VI" URL="../../FINS3-E Shared/INS_Mode_word_Bit8toBit11.vi"/>
+			<Item Name="INS_Mode_word_Bit12toBit15.vi" Type="VI" URL="../../FINS3-E Shared/INS_Mode_word_Bit12toBit15.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Logging Configuration.ctl" Type="VI" URL="../../FINS-3E Settings Editor/Logging Configuration.ctl"/>
+			<Item Name="Settings--cluster.ctl" Type="VI" URL="../../FINS-3E Settings Editor/Settings--cluster.ctl"/>
+			<Item Name="Stop Module.vi" Type="VI" URL="../../FINS-3E Settings Editor/Stop Module.vi"/>
+			<Item Name="TERCOM Hardware Configuration.ctl" Type="VI" URL="../TERCOM/FINS3-E TERCOM Data Acquisition and Decoding/TERCOM Hardware Configuration.ctl"/>
+			<Item Name="Update Application Settings (Reply Payload)--cluster.ctl" Type="VI" URL="../../FINS-3E Settings Editor/Update Application Settings (Reply Payload)--cluster.ctl"/>
+			<Item Name="Update Application Settings.vi" Type="VI" URL="../../FINS-3E Settings Editor/Update Application Settings.vi"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

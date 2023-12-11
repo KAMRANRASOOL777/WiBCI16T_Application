@@ -31,6 +31,11 @@
 				<Item Name="Command_ImpedanceData Argument--cluster.ctl" Type="VI" URL="../Command_ImpedanceData Argument--cluster.ctl"/>
 				<Item Name="Command_GoToIdle Argument--cluster.ctl" Type="VI" URL="../Command_GoToIdle Argument--cluster.ctl"/>
 				<Item Name="Soft Trigger Argument--cluster.ctl" Type="VI" URL="../Soft Trigger Argument--cluster.ctl"/>
+				<Item Name="Start IMP Acquiring Argument--cluster.ctl" Type="VI" URL="../Start IMP Acquiring Argument--cluster.ctl"/>
+				<Item Name="Stop IMP acquiring Argument--cluster.ctl" Type="VI" URL="../Stop IMP acquiring Argument--cluster.ctl"/>
+				<Item Name="Start GND Loop acquiring Argument--cluster.ctl" Type="VI" URL="../Start GND Loop acquiring Argument--cluster.ctl"/>
+				<Item Name="IMP data updated Argument--cluster.ctl" Type="VI" URL="../IMP data updated Argument--cluster.ctl"/>
+				<Item Name="IMP data updated (Reply Payload)--cluster.ctl" Type="VI" URL="../IMP data updated (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -40,6 +45,7 @@
 				<Item Name="Acquisition Stopped Argument--cluster.ctl" Type="VI" URL="../Acquisition Stopped Argument--cluster.ctl"/>
 				<Item Name="Data Updated Argument--cluster.ctl" Type="VI" URL="../Data Updated Argument--cluster.ctl"/>
 				<Item Name="Device Calibrated Argument--cluster.ctl" Type="VI" URL="../Device Calibrated Argument--cluster.ctl"/>
+				<Item Name="Impedance Data Updated Argument--cluster.ctl" Type="VI" URL="../Impedance Data Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -58,11 +64,20 @@
 			<Item Name="Command_ImpedanceData.vi" Type="VI" URL="../Command_ImpedanceData.vi"/>
 			<Item Name="Command_GoToIdle.vi" Type="VI" URL="../Command_GoToIdle.vi"/>
 			<Item Name="Soft Trigger.vi" Type="VI" URL="../Soft Trigger.vi"/>
+			<Item Name="Start IMP Acquiring.vi" Type="VI" URL="../Start IMP Acquiring.vi"/>
+			<Item Name="Stop IMP acquiring.vi" Type="VI" URL="../Stop IMP acquiring.vi"/>
+			<Item Name="Start GND Loop acquiring.vi" Type="VI" URL="../Start GND Loop acquiring.vi"/>
+			<Item Name="IMP data updated.vi" Type="VI" URL="../IMP data updated.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 		<Item Name="Null Broadcast Events--constant.vi" Type="VI" URL="../Null Broadcast Events--constant.vi"/>
+		<Item Name="Calibration Values--cluster.ctl" Type="VI" URL="../Calibration Values--cluster.ctl"/>
+		<Item Name="Reg_Map.ctl" Type="VI" URL="../Reg_Map.ctl"/>
+		<Item Name="Signal Type--enum.ctl" Type="VI" URL="../Signal Type--enum.ctl"/>
+		<Item Name="WiBCI16T_Data.ctl" Type="VI" URL="../WiBCI16T_Data.ctl"/>
+		<Item Name="WiBCI16T_Status.ctl" Type="VI" URL="../WiBCI16T_Status.ctl"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -79,6 +94,7 @@
 		<Item Name="Acquisition Stopped.vi" Type="VI" URL="../Acquisition Stopped.vi"/>
 		<Item Name="Data Updated.vi" Type="VI" URL="../Data Updated.vi"/>
 		<Item Name="Device Calibrated.vi" Type="VI" URL="../Device Calibrated.vi"/>
+		<Item Name="Impedance Data Updated.vi" Type="VI" URL="../Impedance Data Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
