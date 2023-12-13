@@ -67,10 +67,17 @@
 		<Item Name="Calc Impedance.vi" Type="VI" URL="../Calc Impedance.vi"/>
 		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
 		<Item Name="color code.vi" Type="VI" URL="../color code.vi"/>
+		<Item Name="format Impedance display.vi" Type="VI" URL="../format Impedance display.vi"/>
 		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
 		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
 		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
 		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
+		<Item Name="Menu-Start Acq.vi" Type="VI" URL="../Menu-Start Acq.vi"/>
+		<Item Name="Menu-Start Imp.vi" Type="VI" URL="../Menu-Start Imp.vi"/>
+		<Item Name="Menu-Start Log.vi" Type="VI" URL="../Menu-Start Log.vi"/>
+		<Item Name="Menu-Stop Acq.vi" Type="VI" URL="../Menu-Stop Acq.vi"/>
+		<Item Name="Menu-Stop Imp.vi" Type="VI" URL="../Menu-Stop Imp.vi"/>
+		<Item Name="Menu-Stop Log.vi" Type="VI" URL="../Menu-Stop Log.vi"/>
 		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
 		<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
@@ -79,6 +86,8 @@
 		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
 		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
+		<Item Name="Set Init Menu.vi" Type="VI" URL="../Set Init Menu.vi"/>
+		<Item Name="Set Menu for Graph or impedance.vi" Type="VI" URL="../Set Menu for Graph or impedance.vi"/>
 		<Item Name="Update Impedance.vi" Type="VI" URL="../Update Impedance.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
