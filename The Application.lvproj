@@ -17,6 +17,7 @@
 			<Item Name="Acquisition.lvlib" Type="Library" URL="../Libraries/Acquisition/Acquisition.lvlib"/>
 			<Item Name="Logger.lvlib" Type="Library" URL="../Libraries/Logger/Logger.lvlib"/>
 			<Item Name="Settings Editor.lvlib" Type="Library" URL="../Libraries/Settings Editor/Settings Editor.lvlib"/>
+			<Item Name="FileName Query.lvlib" Type="Library" URL="../Libraries/FileName Query/FileName Query.lvlib"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="CML Shared.lvlib" Type="Library" URL="../Libraries/CML Shared/CML Shared.lvlib"/>
@@ -29,7 +30,7 @@
 			<Item Name="Test Acquisition API.vi" Type="VI" URL="../Libraries/Acquisition/Test Acquisition API.vi"/>
 			<Item Name="Test Logger API.vi" Type="VI" URL="../Libraries/Logger/Test Logger API.vi"/>
 			<Item Name="Test Settings Editor API.vi" Type="VI" URL="../Libraries/Settings Editor/Test Settings Editor API.vi"/>
-			<Item Name="Test Impedance Acquisition API.vi" Type="VI" URL="../Libraries/Impedance Acquisition/Test Impedance Acquisition API.vi"/>
+			<Item Name="Test FileName Query API.vi" Type="VI" URL="../Libraries/FileName Query/Test FileName Query API.vi"/>
 		</Item>
 		<Item Name="TestFiles" Type="Folder" URL="../TestFiles">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -157,7 +158,6 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
-			<Item Name="Impedance Acquisition.lvlib" Type="Library" URL="../Libraries/Impedance Acquisition/Impedance Acquisition.lvlib"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

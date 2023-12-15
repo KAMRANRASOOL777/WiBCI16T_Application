@@ -181,7 +181,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Cz</Val>
+<Val>Czz</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -321,7 +321,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>O2</Val>
+<Val>O22</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
