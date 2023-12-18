@@ -93,7 +93,7 @@
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -209,7 +209,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -229,7 +229,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -249,7 +249,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -269,7 +269,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -289,7 +289,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>

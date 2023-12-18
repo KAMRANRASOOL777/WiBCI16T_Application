@@ -64,28 +64,36 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="Constants" Type="Folder">
+			<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
+			<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
+		</Item>
+		<Item Name="Errors" Type="Folder">
+			<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
+			<Item Name="Module Not Stopped--error.vi" Type="VI" URL="../Module Not Stopped--error.vi"/>
+			<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
+			<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
+		</Item>
+		<Item Name="Framework Support" Type="Folder">
+			<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
+			<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
+			<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
+			<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
+			<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
+			<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
+		</Item>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
+		</Item>
 		<Item Name="Calc Impedance.vi" Type="VI" URL="../Calc Impedance.vi"/>
-		<Item Name="Close Module.vi" Type="VI" URL="../Close Module.vi"/>
 		<Item Name="color code.vi" Type="VI" URL="../color code.vi"/>
 		<Item Name="format Impedance display.vi" Type="VI" URL="../format Impedance display.vi"/>
-		<Item Name="Get Module Main VI Information.vi" Type="VI" URL="../Get Module Main VI Information.vi"/>
-		<Item Name="Handle Exit.vi" Type="VI" URL="../Handle Exit.vi"/>
-		<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
-		<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
 		<Item Name="Menu-Start Acq.vi" Type="VI" URL="../Menu-Start Acq.vi"/>
 		<Item Name="Menu-Start Imp.vi" Type="VI" URL="../Menu-Start Imp.vi"/>
 		<Item Name="Menu-Start Log.vi" Type="VI" URL="../Menu-Start Log.vi"/>
 		<Item Name="Menu-Stop Acq.vi" Type="VI" URL="../Menu-Stop Acq.vi"/>
 		<Item Name="Menu-Stop Imp.vi" Type="VI" URL="../Menu-Stop Imp.vi"/>
 		<Item Name="Menu-Stop Log.vi" Type="VI" URL="../Menu-Stop Log.vi"/>
-		<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
-		<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
-		<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>
-		<Item Name="Module Not Stopped--error.vi" Type="VI" URL="../Module Not Stopped--error.vi"/>
-		<Item Name="Module Not Synced--error.vi" Type="VI" URL="../Module Not Synced--error.vi"/>
-		<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
-		<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
-		<Item Name="Request and Wait for Reply Timeout--error.vi" Type="VI" URL="../Request and Wait for Reply Timeout--error.vi"/>
 		<Item Name="Set Init Menu.vi" Type="VI" URL="../Set Init Menu.vi"/>
 		<Item Name="Set Menu for Graph or impedance.vi" Type="VI" URL="../Set Menu for Graph or impedance.vi"/>
 		<Item Name="Update Impedance.vi" Type="VI" URL="../Update Impedance.vi"/>
@@ -109,6 +117,7 @@
 		<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Set Enable State on Multiple Controls.vi"/>
 		<Item Name="Is UI Ready.vi" Type="VI" URL="../Is UI Ready.vi"/>
 		<Item Name="User Message.vi" Type="VI" URL="../User Message.vi"/>
+		<Item Name="Acquisition State.ctl" Type="VI" URL="../Acquisition State.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
