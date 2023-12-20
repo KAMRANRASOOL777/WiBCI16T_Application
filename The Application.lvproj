@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -31,6 +32,9 @@
 			<Item Name="Test Logger API.vi" Type="VI" URL="../Libraries/Logger/Test Logger API.vi"/>
 			<Item Name="Test Settings Editor API.vi" Type="VI" URL="../Libraries/Settings Editor/Test Settings Editor API.vi"/>
 			<Item Name="Test FileName Query API.vi" Type="VI" URL="../Libraries/FileName Query/Test FileName Query API.vi"/>
+		</Item>
+		<Item Name="Test VI&apos;s" Type="Folder" URL="../Test VI&apos;s">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="TestFiles" Type="Folder" URL="../TestFiles">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -227,7 +231,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{D885EF2B-CC51-45B8-8A64-DF8A93C58F0D}</Property>
 				<Property Name="INST_productName" Type="Str">The Application</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
+				<Property Name="INST_productVersion" Type="Str">1.3.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008024</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
@@ -274,9 +278,9 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Support/Launcher Support.lvlib/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F99CC542-5CD4-4BE2-9746-576CE11E803B}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">2</Property>
+				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">The Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/The Application/The Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -286,7 +290,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/The Application 1.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0AFEA32B-685C-4C4F-B047-73673F929B78}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8FB64119-A131-4AF8-84CC-E2644A9B5AFB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CML Main.vi</Property>
@@ -296,10 +300,8 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Settings.xml</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">Nil</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">The Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">The Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
 				<Property Name="TgtF_productName" Type="Str">The Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5F896DD4-E3AF-4E6C-B723-CD0961BE88A6}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">The Application.exe</Property>
