@@ -41,7 +41,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Fp1</Val>
+<Val>C1</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -61,7 +61,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Fp2</Val>
+<Val>C2</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -81,7 +81,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>F3</Val>
+<Val>C3</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -101,7 +101,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Fz</Val>
+<Val>C4</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -121,7 +121,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>F4</Val>
+<Val>C5</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -141,7 +141,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>T3</Val>
+<Val>C6</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -161,7 +161,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>C3</Val>
+<Val>C7</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -181,7 +181,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Cz</Val>
+<Val>C8</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -201,7 +201,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>C4</Val>
+<Val>C9</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -221,7 +221,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>T4</Val>
+<Val>C10</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -241,7 +241,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>P3</Val>
+<Val>C11</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -261,7 +261,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Pz</Val>
+<Val>C12</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -281,7 +281,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>P4</Val>
+<Val>C13</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -301,7 +301,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>O1</Val>
+<Val>C14</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -321,7 +321,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>O22</Val>
+<Val>C15</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -341,7 +341,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ref</Val>
+<Val>C16</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -365,8 +365,8 @@
 <EW>
 <Name>Soft Trig enum</Name>
 <Choice>Disable Soft Trigger</Choice>
-<Choice>Enabled Soft Trigger</Choice>
-<Val>1</Val>
+<Choice>Enable Soft Trigger</Choice>
+<Val>0</Val>
 </EW>
 </Cluster>
 </LVData>

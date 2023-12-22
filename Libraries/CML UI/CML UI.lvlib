@@ -57,6 +57,12 @@
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Private Requests" Type="Folder">
+			<Item Name="Priv Req Arguments" Type="Folder">
+				<Item Name="Wake-Up File Name Query Loop Argument--cluster.ctl" Type="VI" URL="../Wake-Up File Name Query Loop Argument--cluster.ctl"/>
+			</Item>
+			<Item Name="Wake-Up File Name Query Loop.vi" Type="VI" URL="../Wake-Up File Name Query Loop.vi"/>
+		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
 		<Item Name="Destroy Request Events.vi" Type="VI" URL="../Destroy Request Events.vi"/>
@@ -117,7 +123,11 @@
 		<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Set Enable State on Multiple Controls.vi"/>
 		<Item Name="Is UI Ready.vi" Type="VI" URL="../Is UI Ready.vi"/>
 		<Item Name="User Message.vi" Type="VI" URL="../User Message.vi"/>
+		<Item Name="File Name Message.vi" Type="VI" URL="../File Name Message.vi"/>
 		<Item Name="Acquisition State.ctl" Type="VI" URL="../Acquisition State.ctl"/>
+	</Item>
+	<Item Name="Private Requests" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

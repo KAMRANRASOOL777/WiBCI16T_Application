@@ -18,7 +18,6 @@
 			<Item Name="Acquisition.lvlib" Type="Library" URL="../Libraries/Acquisition/Acquisition.lvlib"/>
 			<Item Name="Logger.lvlib" Type="Library" URL="../Libraries/Logger/Logger.lvlib"/>
 			<Item Name="Settings Editor.lvlib" Type="Library" URL="../Libraries/Settings Editor/Settings Editor.lvlib"/>
-			<Item Name="FileName Query.lvlib" Type="Library" URL="../Libraries/FileName Query/FileName Query.lvlib"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="CML Shared.lvlib" Type="Library" URL="../Libraries/CML Shared/CML Shared.lvlib"/>
@@ -31,7 +30,6 @@
 			<Item Name="Test Acquisition API.vi" Type="VI" URL="../Libraries/Acquisition/Test Acquisition API.vi"/>
 			<Item Name="Test Logger API.vi" Type="VI" URL="../Libraries/Logger/Test Logger API.vi"/>
 			<Item Name="Test Settings Editor API.vi" Type="VI" URL="../Libraries/Settings Editor/Test Settings Editor API.vi"/>
-			<Item Name="Test FileName Query API.vi" Type="VI" URL="../Libraries/FileName Query/Test FileName Query API.vi"/>
 		</Item>
 		<Item Name="Test VI&apos;s" Type="Folder" URL="../Test VI&apos;s">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
