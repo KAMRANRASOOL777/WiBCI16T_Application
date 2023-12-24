@@ -60,8 +60,10 @@
 		<Item Name="Private Requests" Type="Folder">
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Wake-Up File Name Query Loop Argument--cluster.ctl" Type="VI" URL="../Wake-Up File Name Query Loop Argument--cluster.ctl"/>
+				<Item Name="Wake-up CNV Demo Loop Argument--cluster.ctl" Type="VI" URL="../Wake-up CNV Demo Loop Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Wake-Up File Name Query Loop.vi" Type="VI" URL="../Wake-Up File Name Query Loop.vi"/>
+			<Item Name="Wake-up CNV Demo Loop.vi" Type="VI" URL="../Wake-up CNV Demo Loop.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
@@ -88,20 +90,23 @@
 			<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
 			<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		</Item>
+		<Item Name="Menu Op Files" Type="Folder">
+			<Item Name="Menu-Start Acq.vi" Type="VI" URL="../Menu-Start Acq.vi"/>
+			<Item Name="Menu-Start Imp.vi" Type="VI" URL="../Menu-Start Imp.vi"/>
+			<Item Name="Menu-Start Log.vi" Type="VI" URL="../Menu-Start Log.vi"/>
+			<Item Name="Menu-Stop Acq.vi" Type="VI" URL="../Menu-Stop Acq.vi"/>
+			<Item Name="Menu-Stop Imp.vi" Type="VI" URL="../Menu-Stop Imp.vi"/>
+			<Item Name="Menu-Stop Log.vi" Type="VI" URL="../Menu-Stop Log.vi"/>
+			<Item Name="Set Init Menu.vi" Type="VI" URL="../Set Init Menu.vi"/>
+			<Item Name="Set Menu for Graph or impedance.vi" Type="VI" URL="../Set Menu for Graph or impedance.vi"/>
+		</Item>
 		<Item Name="Typedefs" Type="Folder">
+			<Item Name="CNV demo Helper Loop Data--cluster.ctl" Type="VI" URL="../CNV demo Helper Loop Data--cluster.ctl"/>
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
 		<Item Name="Calc Impedance.vi" Type="VI" URL="../Calc Impedance.vi"/>
 		<Item Name="color code.vi" Type="VI" URL="../color code.vi"/>
 		<Item Name="format Impedance display.vi" Type="VI" URL="../format Impedance display.vi"/>
-		<Item Name="Menu-Start Acq.vi" Type="VI" URL="../Menu-Start Acq.vi"/>
-		<Item Name="Menu-Start Imp.vi" Type="VI" URL="../Menu-Start Imp.vi"/>
-		<Item Name="Menu-Start Log.vi" Type="VI" URL="../Menu-Start Log.vi"/>
-		<Item Name="Menu-Stop Acq.vi" Type="VI" URL="../Menu-Stop Acq.vi"/>
-		<Item Name="Menu-Stop Imp.vi" Type="VI" URL="../Menu-Stop Imp.vi"/>
-		<Item Name="Menu-Stop Log.vi" Type="VI" URL="../Menu-Stop Log.vi"/>
-		<Item Name="Set Init Menu.vi" Type="VI" URL="../Set Init Menu.vi"/>
-		<Item Name="Set Menu for Graph or impedance.vi" Type="VI" URL="../Set Menu for Graph or impedance.vi"/>
 		<Item Name="Update Impedance.vi" Type="VI" URL="../Update Impedance.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
@@ -125,9 +130,6 @@
 		<Item Name="User Message.vi" Type="VI" URL="../User Message.vi"/>
 		<Item Name="File Name Message.vi" Type="VI" URL="../File Name Message.vi"/>
 		<Item Name="Acquisition State.ctl" Type="VI" URL="../Acquisition State.ctl"/>
-	</Item>
-	<Item Name="Private Requests" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
