@@ -124,6 +124,7 @@
 			<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Acquisition Types.ctl" Type="VI" URL="../Acquisition Types.ctl"/>
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
 		<Item Name="Calc EEG Volts.vi" Type="VI" URL="../Calc EEG Volts.vi"/>

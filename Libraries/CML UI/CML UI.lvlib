@@ -61,9 +61,11 @@
 			<Item Name="Priv Req Arguments" Type="Folder">
 				<Item Name="Wake-Up File Name Query Loop Argument--cluster.ctl" Type="VI" URL="../Wake-Up File Name Query Loop Argument--cluster.ctl"/>
 				<Item Name="Wake-up CNV Demo Loop Argument--cluster.ctl" Type="VI" URL="../Wake-up CNV Demo Loop Argument--cluster.ctl"/>
+				<Item Name="Sleep CNV Demo Loop Argument--cluster.ctl" Type="VI" URL="../Sleep CNV Demo Loop Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Wake-Up File Name Query Loop.vi" Type="VI" URL="../Wake-Up File Name Query Loop.vi"/>
 			<Item Name="Wake-up CNV Demo Loop.vi" Type="VI" URL="../Wake-up CNV Demo Loop.vi"/>
+			<Item Name="Sleep CNV Demo Loop.vi" Type="VI" URL="../Sleep CNV Demo Loop.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
@@ -128,6 +130,7 @@
 		<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Set Enable State on Multiple Controls.vi"/>
 		<Item Name="Is UI Ready.vi" Type="VI" URL="../Is UI Ready.vi"/>
 		<Item Name="User Message.vi" Type="VI" URL="../User Message.vi"/>
+		<Item Name="Visual Cue Builder.vi" Type="VI" URL="../Visual Cue Builder.vi"/>
 		<Item Name="File Name Message.vi" Type="VI" URL="../File Name Message.vi"/>
 		<Item Name="Acquisition State.ctl" Type="VI" URL="../Acquisition State.ctl"/>
 	</Item>
