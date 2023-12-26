@@ -106,6 +106,7 @@
 			<Item Name="CNV demo Helper Loop Data--cluster.ctl" Type="VI" URL="../CNV demo Helper Loop Data--cluster.ctl"/>
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
+		<Item Name="Build Draw Vectors.vi" Type="VI" URL="../Build Draw Vectors.vi"/>
 		<Item Name="Calc Impedance.vi" Type="VI" URL="../Calc Impedance.vi"/>
 		<Item Name="color code.vi" Type="VI" URL="../color code.vi"/>
 		<Item Name="format Impedance display.vi" Type="VI" URL="../format Impedance display.vi"/>
