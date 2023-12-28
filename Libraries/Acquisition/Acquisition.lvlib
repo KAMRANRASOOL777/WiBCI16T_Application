@@ -37,6 +37,7 @@
 				<Item Name="IMP data updated Argument--cluster.ctl" Type="VI" URL="../IMP data updated Argument--cluster.ctl"/>
 				<Item Name="IMP data updated (Reply Payload)--cluster.ctl" Type="VI" URL="../IMP data updated (Reply Payload)--cluster.ctl"/>
 				<Item Name="Start CNV Acquiring Argument--cluster.ctl" Type="VI" URL="../Start CNV Acquiring Argument--cluster.ctl"/>
+				<Item Name="Start EOC Acquiring Argument--cluster.ctl" Type="VI" URL="../Start EOC Acquiring Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -48,6 +49,7 @@
 				<Item Name="Device Calibrated Argument--cluster.ctl" Type="VI" URL="../Device Calibrated Argument--cluster.ctl"/>
 				<Item Name="Impedance Data Updated Argument--cluster.ctl" Type="VI" URL="../Impedance Data Updated Argument--cluster.ctl"/>
 				<Item Name="CNV Data Updated Argument--cluster.ctl" Type="VI" URL="../CNV Data Updated Argument--cluster.ctl"/>
+				<Item Name="EOC Data Updated Argument--cluster.ctl" Type="VI" URL="../EOC Data Updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -71,6 +73,7 @@
 			<Item Name="Start GND Loop acquiring.vi" Type="VI" URL="../Start GND Loop acquiring.vi"/>
 			<Item Name="IMP data updated.vi" Type="VI" URL="../IMP data updated.vi"/>
 			<Item Name="Start CNV Acquiring.vi" Type="VI" URL="../Start CNV Acquiring.vi"/>
+			<Item Name="Start EOC Acquiring.vi" Type="VI" URL="../Start EOC Acquiring.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -99,6 +102,7 @@
 		<Item Name="Device Calibrated.vi" Type="VI" URL="../Device Calibrated.vi"/>
 		<Item Name="Impedance Data Updated.vi" Type="VI" URL="../Impedance Data Updated.vi"/>
 		<Item Name="CNV Data Updated.vi" Type="VI" URL="../CNV Data Updated.vi"/>
+		<Item Name="EOC Data Updated.vi" Type="VI" URL="../EOC Data Updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
