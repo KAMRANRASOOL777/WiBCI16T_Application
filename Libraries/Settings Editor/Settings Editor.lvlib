@@ -84,6 +84,8 @@
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
+		<Item Name="Get all Channel Settings File Names.vi" Type="VI" URL="../Get all Channel Settings File Names.vi"/>
+		<Item Name="Manual Generation of WiBCI16T Channel Settings.vi" Type="VI" URL="../Manual Generation of WiBCI16T Channel Settings.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -103,6 +105,8 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Get Config File Path.vi" Type="VI" URL="../Get Config File Path.vi"/>
 		<Item Name="Load Settings from XML.vi" Type="VI" URL="../Load Settings from XML.vi"/>
+		<Item Name="Retrieve Selected Montage.vi" Type="VI" URL="../Retrieve Selected Montage.vi"/>
+		<Item Name="Save New Channel Settings.vi" Type="VI" URL="../Save New Channel Settings.vi"/>
 		<Item Name="Save Settings to XML.vi" Type="VI" URL="../Save Settings to XML.vi"/>
 		<Item Name="Default Settings.vi" Type="VI" URL="../Default Settings.vi"/>
 	</Item>
