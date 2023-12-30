@@ -113,6 +113,8 @@
 		<Item Name="Save New Channel Settings.vi" Type="VI" URL="../Save New Channel Settings.vi"/>
 		<Item Name="Save Settings to XML.vi" Type="VI" URL="../Save Settings to XML.vi"/>
 		<Item Name="Default Settings.vi" Type="VI" URL="../Default Settings.vi"/>
+		<Item Name="Retrieve CNV Montage.vi" Type="VI" URL="../Retrieve CNV Montage.vi"/>
+		<Item Name="Retrieve Eyes OC Montage.vi" Type="VI" URL="../Retrieve Eyes OC Montage.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
