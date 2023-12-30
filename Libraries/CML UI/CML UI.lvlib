@@ -71,6 +71,17 @@
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
 		<Item Name="Destroy Request Events.vi" Type="VI" URL="../Destroy Request Events.vi"/>
 	</Item>
+	<Item Name="Menu Op Files" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Menu-Start Acq.vi" Type="VI" URL="../Menu-Start Acq.vi"/>
+		<Item Name="Menu-Start Imp.vi" Type="VI" URL="../Menu-Start Imp.vi"/>
+		<Item Name="Menu-Start Log.vi" Type="VI" URL="../Menu-Start Log.vi"/>
+		<Item Name="Menu-Stop Acq.vi" Type="VI" URL="../Menu-Stop Acq.vi"/>
+		<Item Name="Menu-Stop Imp.vi" Type="VI" URL="../Menu-Stop Imp.vi"/>
+		<Item Name="Menu-Stop Log.vi" Type="VI" URL="../Menu-Stop Log.vi"/>
+		<Item Name="Set Init Menu.vi" Type="VI" URL="../Set Init Menu.vi"/>
+		<Item Name="Set Menu for Graph or impedance.vi" Type="VI" URL="../Set Menu for Graph or impedance.vi"/>
+	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">0</Property>
@@ -91,16 +102,6 @@
 			<Item Name="Hide VI Panel.vi" Type="VI" URL="../Hide VI Panel.vi"/>
 			<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
 			<Item Name="Open VI Panel.vi" Type="VI" URL="../Open VI Panel.vi"/>
-		</Item>
-		<Item Name="Menu Op Files" Type="Folder">
-			<Item Name="Menu-Start Acq.vi" Type="VI" URL="../Menu-Start Acq.vi"/>
-			<Item Name="Menu-Start Imp.vi" Type="VI" URL="../Menu-Start Imp.vi"/>
-			<Item Name="Menu-Start Log.vi" Type="VI" URL="../Menu-Start Log.vi"/>
-			<Item Name="Menu-Stop Acq.vi" Type="VI" URL="../Menu-Stop Acq.vi"/>
-			<Item Name="Menu-Stop Imp.vi" Type="VI" URL="../Menu-Stop Imp.vi"/>
-			<Item Name="Menu-Stop Log.vi" Type="VI" URL="../Menu-Stop Log.vi"/>
-			<Item Name="Set Init Menu.vi" Type="VI" URL="../Set Init Menu.vi"/>
-			<Item Name="Set Menu for Graph or impedance.vi" Type="VI" URL="../Set Menu for Graph or impedance.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CNV demo Helper Loop Data--cluster.ctl" Type="VI" URL="../CNV demo Helper Loop Data--cluster.ctl"/>
@@ -134,6 +135,7 @@
 		<Item Name="Visual Cue Builder.vi" Type="VI" URL="../Visual Cue Builder.vi"/>
 		<Item Name="File Name Message.vi" Type="VI" URL="../File Name Message.vi"/>
 		<Item Name="Acquisition State.ctl" Type="VI" URL="../Acquisition State.ctl"/>
+		<Item Name="Set Graphs to Default.vi" Type="VI" URL="../Set Graphs to Default.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

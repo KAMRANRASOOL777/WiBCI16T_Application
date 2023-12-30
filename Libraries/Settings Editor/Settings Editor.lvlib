@@ -20,6 +20,8 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Update Application Settings Argument--cluster.ctl" Type="VI" URL="../Update Application Settings Argument--cluster.ctl"/>
 				<Item Name="Update Application Settings (Reply Payload)--cluster.ctl" Type="VI" URL="../Update Application Settings (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set CNV Montage Argument--cluster.ctl" Type="VI" URL="../Set CNV Montage Argument--cluster.ctl"/>
+				<Item Name="Set Eyes OC Montage Argument--cluster.ctl" Type="VI" URL="../Set Eyes OC Montage Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -34,6 +36,8 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Update Application Settings.vi" Type="VI" URL="../Update Application Settings.vi"/>
+			<Item Name="Set CNV Montage.vi" Type="VI" URL="../Set CNV Montage.vi"/>
+			<Item Name="Set Eyes OC Montage.vi" Type="VI" URL="../Set Eyes OC Montage.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>

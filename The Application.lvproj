@@ -40,7 +40,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="CML Main.vi" Type="VI" URL="../CML Main.vi"/>
-		<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Wait (Double).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Wait/MGI Wait (Double).vi"/>
@@ -272,7 +271,7 @@
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{D885EF2B-CC51-45B8-8A64-DF8A93C58F0D}</Property>
 				<Property Name="Source[1].name" Type="Str">Settings.xml</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/Settings.xml</Property>
+				<Property Name="Source[1].tag" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
@@ -311,7 +310,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Settings.xml</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">The Application</Property>
