@@ -19,11 +19,14 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
+				<Item Name="Start Demo Data Argument--cluster.ctl" Type="VI" URL="../Start Demo Data Argument--cluster.ctl"/>
+				<Item Name="Stop Demo Data Argument--cluster.ctl" Type="VI" URL="../Stop Demo Data Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Demo Data Generated Argument--cluster.ctl" Type="VI" URL="../Demo Data Generated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -32,6 +35,8 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="Start Demo Data.vi" Type="VI" URL="../Start Demo Data.vi"/>
+			<Item Name="Stop Demo Data.vi" Type="VI" URL="../Stop Demo Data.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -49,9 +54,18 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Demo Data Generated.vi" Type="VI" URL="../Demo Data Generated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Private Requests" Type="Folder">
+			<Item Name="Priv Req Arguments" Type="Folder">
+				<Item Name="Wake-Up Data Reader Argument--cluster.ctl" Type="VI" URL="../Wake-Up Data Reader Argument--cluster.ctl"/>
+				<Item Name="Sleep Data Reader Argument--cluster.ctl" Type="VI" URL="../Sleep Data Reader Argument--cluster.ctl"/>
+			</Item>
+			<Item Name="Wake-Up Data Reader.vi" Type="VI" URL="../Wake-Up Data Reader.vi"/>
+			<Item Name="Sleep Data Reader.vi" Type="VI" URL="../Sleep Data Reader.vi"/>
+		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
 		<Item Name="Destroy Request Events.vi" Type="VI" URL="../Destroy Request Events.vi"/>
@@ -62,6 +76,10 @@
 		<Item Name="Constants" Type="Folder">
 			<Item Name="Module Name--constant.vi" Type="VI" URL="../Module Name--constant.vi"/>
 			<Item Name="Module Timeout--constant.vi" Type="VI" URL="../Module Timeout--constant.vi"/>
+		</Item>
+		<Item Name="Data Process" Type="Folder">
+			<Item Name="Data Array to TYpedef.vi" Type="VI" URL="../Data Array to TYpedef.vi"/>
+			<Item Name="Prepare Data.vi" Type="VI" URL="../Prepare Data.vi"/>
 		</Item>
 		<Item Name="Errors" Type="Folder">
 			<Item Name="Module Not Running--error.vi" Type="VI" URL="../Module Not Running--error.vi"/>

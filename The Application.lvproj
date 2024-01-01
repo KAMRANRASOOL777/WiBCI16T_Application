@@ -33,6 +33,14 @@
 			<Item Name="Test Settings Editor API.vi" Type="VI" URL="../Libraries/Settings Editor/Test Settings Editor API.vi"/>
 			<Item Name="Test DemoData Generator API.vi" Type="VI" URL="../Libraries/DemoData Generator/Test DemoData Generator API.vi"/>
 		</Item>
+		<Item Name="Configuration Files" Type="Folder">
+			<Item Name="CNV Demo.xml" Type="Document" URL="../CNV Demo.xml"/>
+			<Item Name="Default.xml" Type="Document" URL="../Default.xml"/>
+			<Item Name="ExperimentA.xml" Type="Document" URL="../ExperimentA.xml"/>
+			<Item Name="Eyes OC Demo.xml" Type="Document" URL="../Eyes OC Demo.xml"/>
+			<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
+			<Item Name="Test Device.xml" Type="Document" URL="../Test Device.xml"/>
+		</Item>
 		<Item Name="Test VI&apos;s" Type="Folder" URL="../Test VI&apos;s">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
