@@ -77,14 +77,19 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Menu-Start Acq CNV.vi" Type="VI" URL="../Menu-Start Acq CNV.vi"/>
 		<Item Name="Menu-Stop Acq CNV.vi" Type="VI" URL="../Menu-Stop Acq CNV.vi"/>
+		<Item Name="Menu-Start Log CNV.vi" Type="VI" URL="../Menu-Start Log CNV.vi"/>
+		<Item Name="Menu-Stop Log CNV.vi" Type="VI" URL="../Menu-Stop Log CNV.vi"/>
 		<Item Name="Menu-Start Acq EOC.vi" Type="VI" URL="../Menu-Start Acq EOC.vi"/>
 		<Item Name="Menu-Stop Acq EOC.vi" Type="VI" URL="../Menu-Stop Acq EOC.vi"/>
+		<Item Name="Menu-Start Log EOC.vi" Type="VI" URL="../Menu-Start Log EOC.vi"/>
+		<Item Name="Menu-Stop Log EOC.vi" Type="VI" URL="../Menu-Stop Log EOC.vi"/>
 		<Item Name="Menu-Start Acq.vi" Type="VI" URL="../Menu-Start Acq.vi"/>
-		<Item Name="Menu-Start Imp.vi" Type="VI" URL="../Menu-Start Imp.vi"/>
-		<Item Name="Menu-Start Log.vi" Type="VI" URL="../Menu-Start Log.vi"/>
 		<Item Name="Menu-Stop Acq.vi" Type="VI" URL="../Menu-Stop Acq.vi"/>
-		<Item Name="Menu-Stop Imp.vi" Type="VI" URL="../Menu-Stop Imp.vi"/>
+		<Item Name="Menu-Start Log.vi" Type="VI" URL="../Menu-Start Log.vi"/>
 		<Item Name="Menu-Stop Log.vi" Type="VI" URL="../Menu-Stop Log.vi"/>
+		<Item Name="Menu-Start Imp.vi" Type="VI" URL="../Menu-Start Imp.vi"/>
+		<Item Name="Menu-Stop Imp.vi" Type="VI" URL="../Menu-Stop Imp.vi"/>
+		<Item Name="Menu Set Enable.vi" Type="VI" URL="../Menu Set Enable.vi"/>
 		<Item Name="Set Init Menu.vi" Type="VI" URL="../Set Init Menu.vi"/>
 		<Item Name="Set Menu for View Selection.vi" Type="VI" URL="../Set Menu for View Selection.vi"/>
 	</Item>
@@ -137,6 +142,7 @@
 	<Item Name="UI support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Set Enable State on Multiple Controls.vi"/>
+		<Item Name="Set Value on Multiple Controls.vi" Type="VI" URL="../Set Value on Multiple Controls.vi"/>
 		<Item Name="Is UI Ready.vi" Type="VI" URL="../Is UI Ready.vi"/>
 		<Item Name="User Message.vi" Type="VI" URL="../User Message.vi"/>
 		<Item Name="Visual Cue Builder.vi" Type="VI" URL="../Visual Cue Builder.vi"/>

@@ -257,7 +257,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{D885EF2B-CC51-45B8-8A64-DF8A93C58F0D}</Property>
 				<Property Name="INST_productName" Type="Str">The Application</Property>
-				<Property Name="INST_productVersion" Type="Str">1.3.2</Property>
+				<Property Name="INST_productVersion" Type="Str">1.4.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008024</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
@@ -283,10 +283,30 @@
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/The Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{D885EF2B-CC51-45B8-8A64-DF8A93C58F0D}</Property>
-				<Property Name="Source[1].name" Type="Str">Settings.xml</Property>
-				<Property Name="Source[1].tag" Type="Ref"></Property>
+				<Property Name="Source[1].name" Type="Str">CNV Demo.xml</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/Configuration Files/CNV Demo.xml</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].dest" Type="Str">{D885EF2B-CC51-45B8-8A64-DF8A93C58F0D}</Property>
+				<Property Name="Source[2].name" Type="Str">Default.xml</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/Configuration Files/Default.xml</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[3].dest" Type="Str">{D885EF2B-CC51-45B8-8A64-DF8A93C58F0D}</Property>
+				<Property Name="Source[3].name" Type="Str">ExperimentA.xml</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/Configuration Files/ExperimentA.xml</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="Source[4].dest" Type="Str">{D885EF2B-CC51-45B8-8A64-DF8A93C58F0D}</Property>
+				<Property Name="Source[4].name" Type="Str">Eyes OC Demo.xml</Property>
+				<Property Name="Source[4].tag" Type="Ref">/My Computer/Configuration Files/Eyes OC Demo.xml</Property>
+				<Property Name="Source[4].type" Type="Str">File</Property>
+				<Property Name="Source[5].dest" Type="Str">{D885EF2B-CC51-45B8-8A64-DF8A93C58F0D}</Property>
+				<Property Name="Source[5].name" Type="Str">Settings.xml</Property>
+				<Property Name="Source[5].tag" Type="Ref">/My Computer/Configuration Files/Settings.xml</Property>
+				<Property Name="Source[5].type" Type="Str">File</Property>
+				<Property Name="Source[6].dest" Type="Str">{D885EF2B-CC51-45B8-8A64-DF8A93C58F0D}</Property>
+				<Property Name="Source[6].name" Type="Str">Test Device.xml</Property>
+				<Property Name="Source[6].tag" Type="Ref">/My Computer/Configuration Files/Test Device.xml</Property>
+				<Property Name="Source[6].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 			<Item Name="The Application" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -295,6 +315,15 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{C3A5E482-B4AE-41F6-9263-96B163C9C21E}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">The Application
+The Application
+The Application
+The Application
+The Application
+The Application
+The Application
+The Application
+The Application</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">The Application</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -306,7 +335,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{F99CC542-5CD4-4BE2-9746-576CE11E803B}</Property>
 				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">3</Property>
+				<Property Name="Bld_version.minor" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">The Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/The Application/The Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -316,16 +345,60 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/The Application 1.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8FB64119-A131-4AF8-84CC-E2644A9B5AFB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A512492B-A2AA-414E-9265-AE956C990945}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CML Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Configuration Files/Eyes OC Demo.xml</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Configuration Files/Settings.xml</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Configuration Files/Test Device.xml</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/TestFiles/ExampleData_from_App/eyes_oc_demo_data.csv</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/TestFiles/ExampleData_from_App/cnv_demo_data.csv</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/TestFiles/wibci2eeglab.zip</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Modules/CML UI.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Modules/Acquisition.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Modules/Logger.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Modules/Settings Editor.lvlib</Property>
+				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Modules/DemoData Generator.lvlib</Property>
+				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Configuration Files/CNV Demo.xml</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Configuration Files/Default.xml</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Configuration Files/ExperimentA.xml</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">The Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">The Application</Property>
 				<Property Name="TgtF_productName" Type="Str">The Application</Property>
