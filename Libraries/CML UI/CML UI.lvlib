@@ -63,11 +63,13 @@
 				<Item Name="Wake-up CNV Demo Loop Argument--cluster.ctl" Type="VI" URL="../Wake-up CNV Demo Loop Argument--cluster.ctl"/>
 				<Item Name="Sleep CNV Demo Loop Argument--cluster.ctl" Type="VI" URL="../Sleep CNV Demo Loop Argument--cluster.ctl"/>
 				<Item Name="Menu -- About Display Box Argument--cluster.ctl" Type="VI" URL="../Menu -- About Display Box Argument--cluster.ctl"/>
+				<Item Name="Wake-Up Copy MATLAB files Argument--cluster.ctl" Type="VI" URL="../Wake-Up Copy MATLAB files Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Wake-Up File Name Query Loop.vi" Type="VI" URL="../Wake-Up File Name Query Loop.vi"/>
 			<Item Name="Wake-up CNV Demo Loop.vi" Type="VI" URL="../Wake-up CNV Demo Loop.vi"/>
 			<Item Name="Sleep CNV Demo Loop.vi" Type="VI" URL="../Sleep CNV Demo Loop.vi"/>
 			<Item Name="Menu -- About Display Box.vi" Type="VI" URL="../Menu -- About Display Box.vi"/>
+			<Item Name="Wake-Up Copy MATLAB files.vi" Type="VI" URL="../Wake-Up Copy MATLAB files.vi"/>
 		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
