@@ -19,6 +19,7 @@
 			<Item Name="Logger.lvlib" Type="Library" URL="../Libraries/Logger/Logger.lvlib"/>
 			<Item Name="Settings Editor.lvlib" Type="Library" URL="../Libraries/Settings Editor/Settings Editor.lvlib"/>
 			<Item Name="DemoData Generator.lvlib" Type="Library" URL="../Libraries/DemoData Generator/DemoData Generator.lvlib"/>
+			<Item Name="Lab Streaming Layer.lvlib" Type="Library" URL="../Libraries/Lab Streaming Layer/Lab Streaming Layer.lvlib"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="CML Shared.lvlib" Type="Library" URL="../Libraries/CML Shared/CML Shared.lvlib"/>
@@ -32,6 +33,7 @@
 			<Item Name="Test Logger API.vi" Type="VI" URL="../Libraries/Logger/Test Logger API.vi"/>
 			<Item Name="Test Settings Editor API.vi" Type="VI" URL="../Libraries/Settings Editor/Test Settings Editor API.vi"/>
 			<Item Name="Test DemoData Generator API.vi" Type="VI" URL="../Libraries/DemoData Generator/Test DemoData Generator API.vi"/>
+			<Item Name="Test Lab Streaming Layer API.vi" Type="VI" URL="../Libraries/Lab Streaming Layer/Test Lab Streaming Layer API.vi"/>
 		</Item>
 		<Item Name="Configuration Files" Type="Folder">
 			<Item Name="CNV Demo.xml" Type="Document" URL="../CNV Demo.xml"/>
@@ -40,6 +42,7 @@
 			<Item Name="Eyes OC Demo.xml" Type="Document" URL="../Eyes OC Demo.xml"/>
 			<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
 			<Item Name="Test Device.xml" Type="Document" URL="../Test Device.xml"/>
+			<Item Name="lsl.dll" Type="Document" URL="../lsl.dll"/>
 		</Item>
 		<Item Name="Test VI&apos;s" Type="Folder" URL="../Test VI&apos;s">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -60,6 +63,7 @@
 				<Item Name="MGI Calculate Array Differences.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Calculate Array Differences.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 				<Item Name="Copy with Options__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Copy with Options__ogtk.vi"/>
+				<Item Name="liblsl64.dll" Type="Document" URL="/&lt;userlib&gt;/liblsl-LabVIEW/liblsl64.dll"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -189,6 +193,7 @@
 				<Item Name="NI_AdvSigProcTSA.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_Advanced Signal Processing/NI_AdvSigProcTSA.lvlib"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -197,6 +202,7 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lsl.dll" Type="Document" URL="/liblsl-LabVIEW-master/liblsl-LabVIEW-master/lsl.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Installer" Type="Installer">
