@@ -22,6 +22,8 @@
 				<Item Name="Init LSL Metadata Argument--cluster.ctl" Type="VI" URL="../Init LSL Metadata Argument--cluster.ctl"/>
 				<Item Name="Stop Stream Argument--cluster.ctl" Type="VI" URL="../Stop Stream Argument--cluster.ctl"/>
 				<Item Name="LSL Stream Data Argument--cluster.ctl" Type="VI" URL="../LSL Stream Data Argument--cluster.ctl"/>
+				<Item Name="Get Listeners count Argument--cluster.ctl" Type="VI" URL="../Get Listeners count Argument--cluster.ctl"/>
+				<Item Name="Get Listeners count (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Listeners count (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -38,6 +40,7 @@
 			<Item Name="Init LSL Metadata.vi" Type="VI" URL="../Init LSL Metadata.vi"/>
 			<Item Name="Stop Stream.vi" Type="VI" URL="../Stop Stream.vi"/>
 			<Item Name="LSL Stream Data.vi" Type="VI" URL="../LSL Stream Data.vi"/>
+			<Item Name="Get Listeners count.vi" Type="VI" URL="../Get Listeners count.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -213,6 +216,7 @@
 			<Item Name="Get lsl stream Info.vi" Type="VI" URL="../Examples/Get lsl stream Info.vi"/>
 			<Item Name="Simple Stream.vi" Type="VI" URL="../Examples/Simple Stream.vi"/>
 			<Item Name="Stream Configuration.vi" Type="VI" URL="../Examples/Stream Configuration.vi"/>
+			<Item Name="Dual Stream.vi" Type="VI" URL="../Examples/Dual Stream.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
