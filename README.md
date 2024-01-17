@@ -15,10 +15,24 @@ This application aims to configure and acquire data from [NortekLabs](www.nortek
   * CNV Demo: Starts CNV demonstration.
   * Eyes Open/Close Demo: Starts Eyes Open/Close demonstration.
 4. Use Settings for montage selection or creation, data path for file logging, soft trigger, and LSL configuration.
+
+![settings](https://github.com/KAMRANRASOOL777/WiBCI16T_Application/assets/48867631/0fffeffc-9117-479d-804e-5b8af189ac74)
+
 5. Select the Graph page. Select **Live data** from the selection bar. Press **START**. Data will start getting updated on graphs. Press **RECORD**. A pop-up window will appear to get the file name.
+
+![graph](https://github.com/KAMRANRASOOL777/WiBCI16T_Application/assets/48867631/7f073558-65a4-433c-9599-56ad4ba1eb86)
+
 6. Press **STOP** and select the Impedance page from the menu.
 7. Press **START** and selected montage channels will start displaying their impedance (also color-coded).
+   
+ ![impedance](https://github.com/KAMRANRASOOL777/WiBCI16T_Application/assets/48867631/076e9f1b-60cd-43e2-842a-cdfb2d18c815)
+
 8. Similarly interactive demonstrations of **CNV** and **Eyes Open Close** can be selected and run.
+![cnv](https://github.com/KAMRANRASOOL777/WiBCI16T_Application/assets/48867631/94fcd3a5-5200-4a1e-8880-03cf855c0f44)
+
+![eyes](https://github.com/KAMRANRASOOL777/WiBCI16T_Application/assets/48867631/98ff9f5f-4d6b-41ca-b526-9b50eac49720)
+
+
 9. Demo data can be selected and run. This will generate pre-loaded data instead of amplifier data.
 
 ## Software Architecture
