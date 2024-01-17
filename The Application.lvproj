@@ -22,9 +22,12 @@
 			<Item Name="Lab Streaming Layer.lvlib" Type="Library" URL="../Libraries/Lab Streaming Layer/Lab Streaming Layer.lvlib"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
+			<Item Name="Icons" Type="Folder">
+				<Item Name="The Application 1.ico" Type="Document" URL="../Icons/The Application 1.ico"/>
+				<Item Name="Icons8-Windows-8-Healthcare-Brain.ico" Type="Document" URL="../Icons/Icons8-Windows-8-Healthcare-Brain.ico"/>
+			</Item>
 			<Item Name="CML Shared.lvlib" Type="Library" URL="../Libraries/CML Shared/CML Shared.lvlib"/>
 			<Item Name="Launcher Support.lvlib" Type="Library" URL="../Libraries/Launcher Support/Launcher Support.lvlib"/>
-			<Item Name="The Application 1.ico" Type="Document" URL="../Icons/The Application 1.ico"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -42,6 +45,8 @@
 			<Item Name="Eyes OC Demo.xml" Type="Document" URL="../Eyes OC Demo.xml"/>
 			<Item Name="Settings.xml" Type="Document" URL="../Settings.xml"/>
 			<Item Name="Test Device.xml" Type="Document" URL="../Test Device.xml"/>
+		</Item>
+		<Item Name="Drivers" Type="Folder">
 			<Item Name="lsl.dll" Type="Document" URL="../lsl.dll"/>
 		</Item>
 		<Item Name="Test VI&apos;s" Type="Folder" URL="../Test VI&apos;s">
@@ -265,7 +270,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{D885EF2B-CC51-45B8-8A64-DF8A93C58F0D}</Property>
 				<Property Name="INST_productName" Type="Str">The Application</Property>
-				<Property Name="INST_productVersion" Type="Str">1.4.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.4.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008024</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
@@ -314,7 +319,11 @@
 				<Property Name="Source[6].name" Type="Str">Test Device.xml</Property>
 				<Property Name="Source[6].tag" Type="Ref">/My Computer/Configuration Files/Test Device.xml</Property>
 				<Property Name="Source[6].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].dest" Type="Str">{D885EF2B-CC51-45B8-8A64-DF8A93C58F0D}</Property>
+				<Property Name="Source[7].name" Type="Str">lsl.dll</Property>
+				<Property Name="Source[7].tag" Type="Ref">/My Computer/Drivers/lsl.dll</Property>
+				<Property Name="Source[7].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 			<Item Name="The Application" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -341,9 +350,9 @@ The Application</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Support/Launcher Support.lvlib/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F99CC542-5CD4-4BE2-9746-576CE11E803B}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">4</Property>
+				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">The Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/The Application/The Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -352,8 +361,8 @@ The Application</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/The Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/The Application 1.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{952CEA56-9EB2-451C-9AB8-8E10084B104A}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/Icons/Icons8-Windows-8-Healthcare-Brain.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0EEF4B79-2583-4283-B7A5-59236F4CFA79}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CML Main.vi</Property>
@@ -374,6 +383,8 @@ The Application</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/TestFiles/wibci2eeglab.zip</Property>
 				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Drivers/lsl.dll</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Modules/CML UI.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -405,7 +416,7 @@ The Application</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Configuration Files/ExperimentA.xml</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="SourceCount" Type="Int">17</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">The Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">The Application</Property>
