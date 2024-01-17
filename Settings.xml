@@ -41,7 +41,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Fp1</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -49,7 +49,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -61,7 +61,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Fp2</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -69,7 +69,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -81,7 +81,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Left_Leg</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -89,7 +89,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -101,7 +101,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Right_Arm</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -109,7 +109,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -121,7 +121,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Left_Arm</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -129,7 +129,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -141,7 +141,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>T3</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -149,7 +149,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -161,7 +161,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Neck</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -169,7 +169,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -221,7 +221,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>T4</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -229,7 +229,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -241,7 +241,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>P3</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -249,7 +249,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -261,7 +261,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Pz</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -269,7 +269,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -281,7 +281,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>P4</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -289,7 +289,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -301,7 +301,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>O1</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -309,7 +309,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -321,7 +321,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>O2</Val>
+<Val>Disabled</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -329,7 +329,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -375,11 +375,11 @@
 <Name>Montages Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFFB000CF</Val>
+<Val>0xBBA00087</Val>
 </Refnum>
 <U8>
 <Name>Selected Montage Number</Name>
-<Val>2</Val>
+<Val>3</Val>
 </U8>
 <Array>
 <Name>Montages Names</Name>
