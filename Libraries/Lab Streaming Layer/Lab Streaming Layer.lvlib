@@ -24,6 +24,7 @@
 				<Item Name="LSL Stream Data Argument--cluster.ctl" Type="VI" URL="../LSL Stream Data Argument--cluster.ctl"/>
 				<Item Name="Get Listeners count Argument--cluster.ctl" Type="VI" URL="../Get Listeners count Argument--cluster.ctl"/>
 				<Item Name="Get Listeners count (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Listeners count (Reply Payload)--cluster.ctl"/>
+				<Item Name="KeyBoard Trigger Argument--cluster.ctl" Type="VI" URL="../KeyBoard Trigger Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -41,6 +42,7 @@
 			<Item Name="Stop Stream.vi" Type="VI" URL="../Stop Stream.vi"/>
 			<Item Name="LSL Stream Data.vi" Type="VI" URL="../LSL Stream Data.vi"/>
 			<Item Name="Get Listeners count.vi" Type="VI" URL="../Get Listeners count.vi"/>
+			<Item Name="KeyBoard Trigger.vi" Type="VI" URL="../KeyBoard Trigger.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
