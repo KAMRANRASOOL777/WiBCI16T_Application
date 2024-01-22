@@ -41,7 +41,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch1</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -49,7 +49,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -61,7 +61,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch2</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -69,7 +69,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -81,7 +81,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch3</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -89,7 +89,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -101,7 +101,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch4</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -109,7 +109,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -121,7 +121,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch5</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -129,7 +129,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -141,7 +141,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch6</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -149,7 +149,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -161,7 +161,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch7</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -169,11 +169,11 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -181,7 +181,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Cz</Val>
+<Val>Ch8</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -201,7 +201,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch9</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -209,7 +209,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -221,7 +221,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch10</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -229,7 +229,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -241,7 +241,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch11</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -249,7 +249,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -261,7 +261,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch12</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -269,7 +269,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -281,7 +281,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch13</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -289,7 +289,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -301,7 +301,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch14</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -309,7 +309,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -321,7 +321,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Disabled</Val>
+<Val>Ch15</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -329,7 +329,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -341,7 +341,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ref</Val>
+<Val>Ch16</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -375,11 +375,11 @@
 <Name>Montages Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xEB80002A</Val>
+<Val>0xE5B0006E</Val>
 </Refnum>
 <U8>
 <Name>Selected Montage Number</Name>
-<Val>3</Val>
+<Val>4</Val>
 </U8>
 <Array>
 <Name>Montages Names</Name>
