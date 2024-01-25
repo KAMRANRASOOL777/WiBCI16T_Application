@@ -246,8 +246,7 @@ The Application</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Support/Launcher Support.lvlib/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F99CC542-5CD4-4BE2-9746-576CE11E803B}</Property>
 				<Property Name="Bld_version.build" Type="Int">3</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">7</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">The Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/The Application/The Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -257,7 +256,7 @@ The Application</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/Icons/Icons8-Windows-8-Healthcare-Brain.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FBB3D8F3-28EB-44EE-A103-2EA1B936A795}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{22A20530-67F9-4DBA-A750-FA87902C3F01}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CML Main.vi</Property>
@@ -388,7 +387,7 @@ The Application</Property>
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{16D49B02-4D2C-4C9B-9E1C-18D0129DAFAE}</Property>
 				<Property Name="INST_productName" Type="Str">The Application</Property>
-				<Property Name="INST_productVersion" Type="Str">1.7.4</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008024</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Company</Property>

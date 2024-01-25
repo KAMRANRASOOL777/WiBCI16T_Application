@@ -106,6 +106,18 @@
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Private Requests" Type="Folder">
+			<Item Name="Priv Req Arguments" Type="Folder">
+				<Item Name="Wake-up Helper Loop for Pkt Loss Calc Argument--cluster.ctl" Type="VI" URL="../Wake-up Helper Loop for Pkt Loss Calc Argument--cluster.ctl"/>
+				<Item Name="Stop Pkt Loss Calc Argument--cluster.ctl" Type="VI" URL="../Stop Pkt Loss Calc Argument--cluster.ctl"/>
+				<Item Name="Update Packet ID Argument--cluster.ctl" Type="VI" URL="../Update Packet ID Argument--cluster.ctl"/>
+				<Item Name="Calculate Packet Loss Argument--cluster.ctl" Type="VI" URL="../Calculate Packet Loss Argument--cluster.ctl"/>
+			</Item>
+			<Item Name="Wake-up Helper Loop for Pkt Loss Calc.vi" Type="VI" URL="../Wake-up Helper Loop for Pkt Loss Calc.vi"/>
+			<Item Name="Stop Pkt Loss Calc.vi" Type="VI" URL="../Stop Pkt Loss Calc.vi"/>
+			<Item Name="Update Packet ID.vi" Type="VI" URL="../Update Packet ID.vi"/>
+			<Item Name="Calculate Packet Loss.vi" Type="VI" URL="../Calculate Packet Loss.vi"/>
+		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
 		<Item Name="Destroy Request Events.vi" Type="VI" URL="../Destroy Request Events.vi"/>

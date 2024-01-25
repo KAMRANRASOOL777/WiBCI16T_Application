@@ -87,9 +87,11 @@
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
+			<Item Name="Settings UI Controls.ctl" Type="VI" URL="../Settings UI Controls.ctl"/>
 		</Item>
 		<Item Name="Get all Channel Settings File Names.vi" Type="VI" URL="../Get all Channel Settings File Names.vi"/>
 		<Item Name="Manual Generation of WiBCI16T Channel Settings.vi" Type="VI" URL="../Manual Generation of WiBCI16T Channel Settings.vi"/>
+		<Item Name="Update UI Control value.vi" Type="VI" URL="../Update UI Control value.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -119,4 +121,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Delete Selected Montage.vi" Type="VI" URL="../Delete Selected Montage.vi"/>
 </Library>
