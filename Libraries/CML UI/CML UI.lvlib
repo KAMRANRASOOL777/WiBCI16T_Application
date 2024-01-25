@@ -122,14 +122,10 @@
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CNV demo Helper Loop Data--cluster.ctl" Type="VI" URL="../CNV demo Helper Loop Data--cluster.ctl"/>
+			<Item Name="Measurement UI Displays.ctl" Type="VI" URL="../Measurement UI Displays.ctl"/>
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
-		<Item Name="Build Draw Vectors.vi" Type="VI" URL="../Build Draw Vectors.vi"/>
-		<Item Name="Calc Impedance.vi" Type="VI" URL="../Calc Impedance.vi"/>
-		<Item Name="color code.vi" Type="VI" URL="../color code.vi"/>
-		<Item Name="format Impedance display.vi" Type="VI" URL="../format Impedance display.vi"/>
 		<Item Name="UI Tab Select.ctl" Type="VI" URL="../UI Tab Select.ctl"/>
-		<Item Name="Update Impedance.vi" Type="VI" URL="../Update Impedance.vi"/>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -149,13 +145,22 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Set Enable State on Multiple Controls.vi"/>
 		<Item Name="Set Value on Multiple Controls.vi" Type="VI" URL="../Set Value on Multiple Controls.vi"/>
+		<Item Name="Update Impedance.vi" Type="VI" URL="../Update Impedance.vi"/>
+		<Item Name="Display Channel Names (En Only).vi" Type="VI" URL="../Display Channel Names (En Only).vi"/>
 		<Item Name="Is UI Ready.vi" Type="VI" URL="../Is UI Ready.vi"/>
+		<Item Name="Calc Impedance.vi" Type="VI" URL="../Calc Impedance.vi"/>
+		<Item Name="Build Draw Vectors.vi" Type="VI" URL="../Build Draw Vectors.vi"/>
+		<Item Name="format Impedance display.vi" Type="VI" URL="../format Impedance display.vi"/>
+		<Item Name="color code.vi" Type="VI" URL="../color code.vi"/>
 		<Item Name="User Message.vi" Type="VI" URL="../User Message.vi"/>
 		<Item Name="Visual Cue Builder.vi" Type="VI" URL="../Visual Cue Builder.vi"/>
 		<Item Name="File Name Message.vi" Type="VI" URL="../File Name Message.vi"/>
 		<Item Name="Menu -- About Display.vi" Type="VI" URL="../Menu -- About Display.vi"/>
 		<Item Name="Acquisition State.ctl" Type="VI" URL="../Acquisition State.ctl"/>
 		<Item Name="Set Graphs to Default.vi" Type="VI" URL="../Set Graphs to Default.vi"/>
+		<Item Name="Display Soft Trigger Status.vi" Type="VI" URL="../Display Soft Trigger Status.vi"/>
+		<Item Name="En Setting for Trig and LSL.vi" Type="VI" URL="../En Setting for Trig and LSL.vi"/>
+		<Item Name="Zoom in-out Graphs to mouse selection.vi" Type="VI" URL="../Zoom in-out Graphs to mouse selection.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
