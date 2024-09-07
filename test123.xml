@@ -2,35 +2,6 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>19.0.1f5</Version>
 <Cluster>
-<Name>Settings</Name>
-<NumElts>7</NumElts>
-<EW>
-<Name>Signal Type</Name>
-<Choice>Sine Wave</Choice>
-<Choice>Square with Noise</Choice>
-<Val>0</Val>
-</EW>
-<Array>
-<Name>Calibration Array</Name>
-<Dimsize>0</Dimsize>
-<Cluster>
-<Name>Calibration</Name>
-<NumElts>2</NumElts>
-<DBL>
-<Name>Slope</Name>
-<Val></Val>
-</DBL>
-<DBL>
-<Name>Offset</Name>
-<Val></Val>
-</DBL>
-</Cluster>
-</Array>
-<Path>
-<Name>Log File Base Path</Name>
-<Val>C:\Users\CAST\Desktop</Val>
-</Path>
-<Cluster>
 <Name>EEG Channels</Name>
 <NumElts>2</NumElts>
 <Array>
@@ -41,7 +12,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch1</Val>
+<Val>Fp1</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -61,7 +32,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch2</Val>
+<Val>Fp2</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -81,7 +52,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch3</Val>
+<Val>F3</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -101,7 +72,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch4</Val>
+<Val>Fz</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -121,7 +92,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch5</Val>
+<Val>F4</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -129,7 +100,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -141,7 +112,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch6</Val>
+<Val>T3</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -149,7 +120,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -161,7 +132,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch7</Val>
+<Val>C3</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -169,11 +140,11 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -181,7 +152,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch8</Val>
+<Val>Cz</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -189,7 +160,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -201,7 +172,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch9</Val>
+<Val>C4</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -209,7 +180,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -221,7 +192,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch10</Val>
+<Val>T4</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -229,7 +200,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -241,7 +212,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch11</Val>
+<Val>P3</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -249,7 +220,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -261,7 +232,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch12</Val>
+<Val>Fz</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -269,7 +240,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -281,7 +252,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch13</Val>
+<Val>P4</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -289,7 +260,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -301,7 +272,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch14</Val>
+<Val>O1</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -309,7 +280,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -321,7 +292,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch15</Val>
+<Val>O2</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -329,7 +300,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -341,7 +312,7 @@
 <NumElts>4</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>Ch16</Val>
+<Val>Ref</Val>
 </String>
 <U8>
 <Name>Channel No</Name>
@@ -361,60 +332,5 @@
 <Name>Gain</Name>
 <Val>24</Val>
 </U8>
-</Cluster>
-<EW>
-<Name>Soft Trig enum</Name>
-<Choice>Disable Soft Trigger</Choice>
-<Choice>Enable Soft Trigger</Choice>
-<Val>0</Val>
-</EW>
-<Cluster>
-<Name>Montage selection</Name>
-<NumElts>3</NumElts>
-<Refnum>
-<Name>Montages Ref</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0xD6600039</Val>
-</Refnum>
-<U8>
-<Name>Selected Montage Number</Name>
-<Val>4</Val>
-</U8>
-<Array>
-<Name>Montages Names</Name>
-<Dimsize>6</Dimsize>
-<String>
-<Name>String</Name>
-<Val>CNV Demo.xml</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>Default.xml</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>ExperimentA.xml</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>Eyes OC Demo.xml</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>Test Device.xml</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>test123.xml</Val>
-</String>
-</Array>
-</Cluster>
-<EW>
-<Name>LSL En enum</Name>
-<Choice>LSL Disabled</Choice>
-<Choice>LSL Enabled</Choice>
-<Val>1</Val>
-</EW>
 </Cluster>
 </LVData>
