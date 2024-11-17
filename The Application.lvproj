@@ -225,7 +225,6 @@
 				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
 				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
-				<Item Name="SearchArray.vi" Type="VI" URL="/&lt;vilib&gt;/GPower/Array/Library/SearchArray.vi"/>
 				<Item Name="NI_BMTK_Measurements.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Biomedical/NI_BMTK_Measurements.lvlib"/>
 				<Item Name="NI_BMTK_common.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Biomedical/NI_BMTK_common.lvlib"/>
 				<Item Name="NI_AdvSigProcTSA.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_Advanced Signal Processing/NI_AdvSigProcTSA.lvlib"/>
@@ -235,6 +234,7 @@
 				<Item Name="NI_DigFilter_Design.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Digital Filter Design/NI_DigFilter_Design.lvlib"/>
 				<Item Name="NI_DigFilter_FXP.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Digital Filter Design/NI_DigFilter_FXP.lvlib"/>
 				<Item Name="dfd_Mutate Filter Obj QSetting 0x100 to 0x200.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/_Objects.llb/dfd_Mutate Filter Obj QSetting 0x100 to 0x200.vi"/>
+				<Item Name="GPArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/GPower/Array/GPArray.lvlib"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -273,6 +273,7 @@ The Application</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F99CC542-5CD4-4BE2-9746-576CE11E803B}</Property>
 				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">The Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/The Application/The Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -282,39 +283,36 @@ The Application</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/Icons/Icons8-Windows-8-Healthcare-Brain.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{69CAFE59-B8F1-460A-90F1-CF96A35F00DF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8B6F7E08-D255-4F41-B434-12BABDBCC2CD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CML Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/TestFiles/wibci2eeglab.zip</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Configuration Files/Default.xml</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Configuration Files/Default.xml</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Configuration Files/ExperimentA.xml</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Configuration Files/ExperimentA.xml</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Configuration Files/Eyes OC Demo.xml</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Configuration Files/Eyes OC Demo.xml</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Configuration Files/Settings.xml</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Configuration Files/Settings.xml</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Configuration Files/Test Device.xml</Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Configuration Files/Test Device.xml</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Modules/Lab Streaming Layer.lvlib</Property>
+				<Property Name="Source[15].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[15].type" Type="Str">Library</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Modules/Lab Streaming Layer.lvlib</Property>
-				<Property Name="Source[16].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[16].type" Type="Str">Library</Property>
-				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Drivers/lsl.dll</Property>
-				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[18].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/TestFiles/ExampleData_from_App/data_imu.csv</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Drivers/lsl.dll</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/TestFiles/ExampleData_from_App/data_imu.csv</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Modules/CML UI.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -342,9 +340,9 @@ The Application</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/TestFiles/ExampleData_from_App/eyes_oc_demo_data.csv</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref"></Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/TestFiles/wibci2eeglab.zip</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">19</Property>
+				<Property Name="SourceCount" Type="Int">18</Property>
 				<Property Name="TgtF_companyName" Type="Str">The Company</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">The Application</Property>

@@ -2,35 +2,6 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>19.0.1f5</Version>
 <Cluster>
-<Name>Settings</Name>
-<NumElts>7</NumElts>
-<EW>
-<Name>Signal Type</Name>
-<Choice>Sine Wave</Choice>
-<Choice>Square with Noise</Choice>
-<Val>0</Val>
-</EW>
-<Array>
-<Name>Calibration Array</Name>
-<Dimsize>0</Dimsize>
-<Cluster>
-<Name>Calibration</Name>
-<NumElts>2</NumElts>
-<DBL>
-<Name>Slope</Name>
-<Val></Val>
-</DBL>
-<DBL>
-<Name>Offset</Name>
-<Val></Val>
-</DBL>
-</Cluster>
-</Array>
-<Path>
-<Name>Log File Base Path</Name>
-<Val>C:\Users\CAST\Desktop</Val>
-</Path>
-<Cluster>
 <Name>EEG Channels</Name>
 <NumElts>2</NumElts>
 <Array>
@@ -173,7 +144,7 @@
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -209,7 +180,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -229,7 +200,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -249,7 +220,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -289,7 +260,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -309,11 +280,11 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -329,7 +300,7 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
@@ -349,11 +320,11 @@
 </U8>
 <Boolean>
 <Name>Channel Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>Channel Referenced</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 </Cluster>
 </Array>
@@ -361,64 +332,5 @@
 <Name>Gain</Name>
 <Val>24</Val>
 </U8>
-</Cluster>
-<EW>
-<Name>Soft Trig enum</Name>
-<Choice>Disable Soft Trigger</Choice>
-<Choice>Enable Soft Trigger</Choice>
-<Val>0</Val>
-</EW>
-<Cluster>
-<Name>Montage selection</Name>
-<NumElts>3</NumElts>
-<Refnum>
-<Name>Montages Ref</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0x0FE00038</Val>
-</Refnum>
-<U8>
-<Name>Selected Montage Number</Name>
-<Val>6</Val>
-</U8>
-<Array>
-<Name>Montages Names</Name>
-<Dimsize>7</Dimsize>
-<String>
-<Name>String</Name>
-<Val>CNV Demo.xml</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>Default.xml</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>ExperimentA.xml</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>Eyes OC Demo.xml</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>TEST abc.xml</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>Test123.xml</Val>
-</String>
-<String>
-<Name>String</Name>
-<Val>test1234.xml</Val>
-</String>
-</Array>
-</Cluster>
-<EW>
-<Name>LSL En enum</Name>
-<Choice>LSL Disabled</Choice>
-<Choice>LSL Enabled</Choice>
-<Val>0</Val>
-</EW>
 </Cluster>
 </LVData>

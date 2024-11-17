@@ -38,6 +38,7 @@
 				<Item Name="IMP data updated (Reply Payload)--cluster.ctl" Type="VI" URL="../IMP data updated (Reply Payload)--cluster.ctl"/>
 				<Item Name="Start CNV Acquiring Argument--cluster.ctl" Type="VI" URL="../Start CNV Acquiring Argument--cluster.ctl"/>
 				<Item Name="Start EOC Acquiring Argument--cluster.ctl" Type="VI" URL="../Start EOC Acquiring Argument--cluster.ctl"/>
+				<Item Name="Command_GndImpedanceData Argument--cluster.ctl" Type="VI" URL="../Command_GndImpedanceData Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -66,6 +67,7 @@
 			<Item Name="Check WiFi AP.vi" Type="VI" URL="../Check WiFi AP.vi"/>
 			<Item Name="Command_LiveData.vi" Type="VI" URL="../Command_LiveData.vi"/>
 			<Item Name="Command_ImpedanceData.vi" Type="VI" URL="../Command_ImpedanceData.vi"/>
+			<Item Name="Command_GndImpedanceData.vi" Type="VI" URL="../Command_GndImpedanceData.vi"/>
 			<Item Name="Command_GoToIdle.vi" Type="VI" URL="../Command_GoToIdle.vi"/>
 			<Item Name="Soft Trigger.vi" Type="VI" URL="../Soft Trigger.vi"/>
 			<Item Name="Start IMP Acquiring.vi" Type="VI" URL="../Start IMP Acquiring.vi"/>
